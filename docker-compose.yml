@@ -1,6 +1,6 @@
 version: '3'
 services:
-        do-ddns:
-                build: .
-                container_name: do-ddns
-                env_file: .env
+  do-ddns:
+    image: do-ddns
+    container_name: do-ddns
+    env_file: .env
