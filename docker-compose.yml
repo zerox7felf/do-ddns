@@ -4,3 +4,4 @@ services:
     image: do-ddns
     container_name: do-ddns
     env_file: .env
+    restart: unless-stopped
